@@ -15,7 +15,7 @@ Navigate to that directory in your terminal.
 
 `docker build -t opencv .  `
 
-`docker run -p 8888:8888 opencv`
+` docker run -it -v `pwd`/playground:/src -p 8888:8888 opencv`
 
 You can then access IPython at [localhost:8888](localhost:8888)
 
@@ -23,4 +23,4 @@ It will have OpenCV bindings already installed and set up.
 
 ----
 
-There's an example of a script in `completed.py`. 
+There's an example of a script in `completed.py`.
